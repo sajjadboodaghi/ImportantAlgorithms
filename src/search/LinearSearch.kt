@@ -1,4 +1,4 @@
-
+package search
 class LinearSearch {
     companion object {
         fun <T> find(list: ArrayList<T>, subject: T) : Int {
@@ -81,7 +81,7 @@ fun main() {
     val x: Short = 100
 
     val result = LinearSearch.find(arr, x)
-    if(result == -1) {
+    if (result == -1) {
         println("Element is not present in array")
     } else {
         println("Element is present at index $result")
